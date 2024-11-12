@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="nhind.direct.jce.providers" type="repository">
+    <properties maven-id="org.nhind:direct-jce-providers:1.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nhind/direct-jce-providers/1.0/direct-jce-providers-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/bouncycastle/bcprov-jdk15/140/bcprov-jdk15-140.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/1.4/commons-io-1.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.5/commons-lang-2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
