@@ -22,10 +22,12 @@ A simple blockchain implementation in Java, demonstrating the creation and valid
 ## Usage
 
 1. **Setup**:
+   - Use Editor or IDE of your choice.
    - Install dependencies: Gson and Bouncy Castle.
    - Add JCE Unlimited Strength Jurisdiction Policy Files.
+   - Add the JAR files if not using Maven or gradle.
 
-2. **Run**:
+3. **Run**:
    - Create wallets.
    - Generate transactions.
    - Mine blocks to add transactions to the blockchain.
