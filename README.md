@@ -31,18 +31,3 @@ A simple blockchain implementation in Java, demonstrating the creation and valid
    - Mine blocks to add transactions to the blockchain.
    - Validate the blockchain to ensure data integrity.
 
-
-// Create wallets
-Wallet walletA = new Wallet();
-Wallet walletB = new Wallet();
-
-// Create genesis transaction and mine the genesis block
-Transaction genesisTransaction = new Transaction(coinbase.publicKey, walletA.publicKey, 100f, null);
-genesisTransaction.generateSignature(coinbase.privateKey);
-genesisTransaction.transactionId = "0"; 
-genesisTransaction.outputs.add(new TransactionOutput(genesisTransaction.reciepient, genesisTransaction.value, genesisTransaction.transactionId));
-NoobChain.UTXOs.put(genesisTransaction.outputs.get(0).id, genesisTransaction.outputs.get(0));
-Block genesis = new Block("0");
-genesis.addTransaction(genesisTransaction);
-NoobChain.addBlock(genesis);
-
